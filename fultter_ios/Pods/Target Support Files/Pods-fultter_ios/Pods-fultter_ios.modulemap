@@ -1,0 +1,6 @@
+framework module Pods_fultter_ios {
+  umbrella header "Pods-fultter_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

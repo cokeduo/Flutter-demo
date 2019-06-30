@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79C5F160E84D57ABFB306740 /* Pods_fultter_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66778DE5D0A19EE833413FF /* Pods_fultter_ios.framework */; };
+		BAB127F822C8935D009D9C3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB127F722C8935D009D9C3A /* AppDelegate.m */; };
+		BAB127FB22C8935D009D9C3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB127FA22C8935D009D9C3A /* ViewController.m */; };
+		BAB127FE22C8935D009D9C3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB127FC22C8935D009D9C3A /* Main.storyboard */; };
+		BAB1280022C8935E009D9C3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB127FF22C8935E009D9C3A /* Assets.xcassets */; };
+		BAB1280322C8935E009D9C3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB1280122C8935E009D9C3A /* LaunchScreen.storyboard */; };
+		BAB1280622C8935E009D9C3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB1280522C8935E009D9C3A /* main.m */; };
+		BAB1281022C8935E009D9C3A /* fultter_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB1280F22C8935E009D9C3A /* fultter_iosTests.m */; };
+		BAB1281B22C8935E009D9C3A /* fultter_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB1281A22C8935E009D9C3A /* fultter_iosUITests.m */; };
+		BAE3A4A322C8A1F000633970 /* MyFlutterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE3A4A222C8A1F000633970 /* MyFlutterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAB1280C22C8935E009D9C3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB127EB22C8935D009D9C3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAB127F222C8935D009D9C3A;
+			remoteInfo = fultter_ios;
+		};
+		BAB1281722C8935E009D9C3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB127EB22C8935D009D9C3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAB127F222C8935D009D9C3A;
+			remoteInfo = fultter_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59780306D22D1A3C8A717B8C /* Pods-fultter_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fultter_ios.debug.xcconfig"; path = "Target Support Files/Pods-fultter_ios/Pods-fultter_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		8DEC11C313574BD917236B4D /* Pods-fultter_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fultter_ios.release.xcconfig"; path = "Target Support Files/Pods-fultter_ios/Pods-fultter_ios.release.xcconfig"; sourceTree = "<group>"; };
+		BAB127F322C8935D009D9C3A /* fultter_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fultter_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB127F622C8935D009D9C3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAB127F722C8935D009D9C3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAB127F922C8935D009D9C3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAB127FA22C8935D009D9C3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAB127FD22C8935D009D9C3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAB127FF22C8935E009D9C3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAB1280222C8935E009D9C3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAB1280422C8935E009D9C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB1280522C8935E009D9C3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAB1280B22C8935E009D9C3A /* fultter_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fultter_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB1280F22C8935E009D9C3A /* fultter_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fultter_iosTests.m; sourceTree = "<group>"; };
+		BAB1281122C8935E009D9C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB1281622C8935E009D9C3A /* fultter_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fultter_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB1281A22C8935E009D9C3A /* fultter_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fultter_iosUITests.m; sourceTree = "<group>"; };
+		BAB1281C22C8935E009D9C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE3A4A122C8A1F000633970 /* MyFlutterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFlutterViewController.h; sourceTree = "<group>"; };
+		BAE3A4A222C8A1F000633970 /* MyFlutterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFlutterViewController.m; sourceTree = "<group>"; };
+		C66778DE5D0A19EE833413FF /* Pods_fultter_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fultter_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAB127F022C8935D009D9C3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C5F160E84D57ABFB306740 /* Pods_fultter_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB1280822C8935E009D9C3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB1281322C8935E009D9C3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3095B28DC1AD18EFA3731993 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59780306D22D1A3C8A717B8C /* Pods-fultter_ios.debug.xcconfig */,
+				8DEC11C313574BD917236B4D /* Pods-fultter_ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6307E237DC812DC521300688 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C66778DE5D0A19EE833413FF /* Pods_fultter_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAB127EA22C8935D009D9C3A = {
+			isa = PBXGroup;
+			children = (
+				BAB127F522C8935D009D9C3A /* fultter_ios */,
+				BAB1280E22C8935E009D9C3A /* fultter_iosTests */,
+				BAB1281922C8935E009D9C3A /* fultter_iosUITests */,
+				BAB127F422C8935D009D9C3A /* Products */,
+				3095B28DC1AD18EFA3731993 /* Pods */,
+				6307E237DC812DC521300688 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAB127F422C8935D009D9C3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB127F322C8935D009D9C3A /* fultter_ios.app */,
+				BAB1280B22C8935E009D9C3A /* fultter_iosTests.xctest */,
+				BAB1281622C8935E009D9C3A /* fultter_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB127F522C8935D009D9C3A /* fultter_ios */ = {
+			isa = PBXGroup;
+			children = (
+				BAB127F622C8935D009D9C3A /* AppDelegate.h */,
+				BAB127F722C8935D009D9C3A /* AppDelegate.m */,
+				BAB127F922C8935D009D9C3A /* ViewController.h */,
+				BAB127FA22C8935D009D9C3A /* ViewController.m */,
+				BAE3A4A122C8A1F000633970 /* MyFlutterViewController.h */,
+				BAE3A4A222C8A1F000633970 /* MyFlutterViewController.m */,
+				BAB127FC22C8935D009D9C3A /* Main.storyboard */,
+				BAB127FF22C8935E009D9C3A /* Assets.xcassets */,
+				BAB1280122C8935E009D9C3A /* LaunchScreen.storyboard */,
+				BAB1280422C8935E009D9C3A /* Info.plist */,
+				BAB1280522C8935E009D9C3A /* main.m */,
+			);
+			path = fultter_ios;
+			sourceTree = "<group>";
+		};
+		BAB1280E22C8935E009D9C3A /* fultter_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAB1280F22C8935E009D9C3A /* fultter_iosTests.m */,
+				BAB1281122C8935E009D9C3A /* Info.plist */,
+			);
+			path = fultter_iosTests;
+			sourceTree = "<group>";
+		};
+		BAB1281922C8935E009D9C3A /* fultter_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAB1281A22C8935E009D9C3A /* fultter_iosUITests.m */,
+				BAB1281C22C8935E009D9C3A /* Info.plist */,
+			);
+			path = fultter_iosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAB127F222C8935D009D9C3A /* fultter_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB1281F22C8935E009D9C3A /* Build configuration list for PBXNativeTarget "fultter_ios" */;
+			buildPhases = (
+				ABC39368681C9D5B07E07434 /* [CP] Check Pods Manifest.lock */,
+				BAB127EF22C8935D009D9C3A /* Sources */,
+				BAB127F022C8935D009D9C3A /* Frameworks */,
+				BAB127F122C8935D009D9C3A /* Resources */,
+				0AA87F7F4F408F7EA3AF986D /* [CP] Embed Pods Frameworks */,
+				BAB1282922C895A4009D9C3A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fultter_ios;
+			productName = fultter_ios;
+			productReference = BAB127F322C8935D009D9C3A /* fultter_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAB1280A22C8935E009D9C3A /* fultter_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB1282222C8935E009D9C3A /* Build configuration list for PBXNativeTarget "fultter_iosTests" */;
+			buildPhases = (
+				BAB1280722C8935E009D9C3A /* Sources */,
+				BAB1280822C8935E009D9C3A /* Frameworks */,
+				BAB1280922C8935E009D9C3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAB1280D22C8935E009D9C3A /* PBXTargetDependency */,
+			);
+			name = fultter_iosTests;
+			productName = fultter_iosTests;
+			productReference = BAB1280B22C8935E009D9C3A /* fultter_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAB1281522C8935E009D9C3A /* fultter_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB1282522C8935E009D9C3A /* Build configuration list for PBXNativeTarget "fultter_iosUITests" */;
+			buildPhases = (
+				BAB1281222C8935E009D9C3A /* Sources */,
+				BAB1281322C8935E009D9C3A /* Frameworks */,
+				BAB1281422C8935E009D9C3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAB1281822C8935E009D9C3A /* PBXTargetDependency */,
+			);
+			name = fultter_iosUITests;
+			productName = fultter_iosUITests;
+			productReference = BAB1281622C8935E009D9C3A /* fultter_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAB127EB22C8935D009D9C3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = wangduo;
+				TargetAttributes = {
+					BAB127F222C8935D009D9C3A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					BAB1280A22C8935E009D9C3A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BAB127F222C8935D009D9C3A;
+					};
+					BAB1281522C8935E009D9C3A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BAB127F222C8935D009D9C3A;
+					};
+				};
+			};
+			buildConfigurationList = BAB127EE22C8935D009D9C3A /* Build configuration list for PBXProject "fultter_ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAB127EA22C8935D009D9C3A;
+			productRefGroup = BAB127F422C8935D009D9C3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAB127F222C8935D009D9C3A /* fultter_ios */,
+				BAB1280A22C8935E009D9C3A /* fultter_iosTests */,
+				BAB1281522C8935E009D9C3A /* fultter_iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAB127F122C8935D009D9C3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB1280322C8935E009D9C3A /* LaunchScreen.storyboard in Resources */,
+				BAB1280022C8935E009D9C3A /* Assets.xcassets in Resources */,
+				BAB127FE22C8935D009D9C3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB1280922C8935E009D9C3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB1281422C8935E009D9C3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AA87F7F4F408F7EA3AF986D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fultter_ios/Pods-fultter_ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fultter_ios/Pods-fultter_ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fultter_ios/Pods-fultter_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC39368681C9D5B07E07434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fultter_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAB1282922C895A4009D9C3A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAB127EF22C8935D009D9C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB127FB22C8935D009D9C3A /* ViewController.m in Sources */,
+				BAB1280622C8935E009D9C3A /* main.m in Sources */,
+				BAB127F822C8935D009D9C3A /* AppDelegate.m in Sources */,
+				BAE3A4A322C8A1F000633970 /* MyFlutterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB1280722C8935E009D9C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB1281022C8935E009D9C3A /* fultter_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB1281222C8935E009D9C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB1281B22C8935E009D9C3A /* fultter_iosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAB1280D22C8935E009D9C3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAB127F222C8935D009D9C3A /* fultter_ios */;
+			targetProxy = BAB1280C22C8935E009D9C3A /* PBXContainerItemProxy */;
+		};
+		BAB1281822C8935E009D9C3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAB127F222C8935D009D9C3A /* fultter_ios */;
+			targetProxy = BAB1281722C8935E009D9C3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAB127FC22C8935D009D9C3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB127FD22C8935D009D9C3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAB1280122C8935E009D9C3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB1280222C8935E009D9C3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAB1281D22C8935E009D9C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAB1281E22C8935E009D9C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAB1282022C8935E009D9C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59780306D22D1A3C8A717B8C /* Pods-fultter_ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fultter_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akulaku.fultter-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAB1282122C8935E009D9C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DEC11C313574BD917236B4D /* Pods-fultter_ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fultter_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akulaku.fultter-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAB1282322C8935E009D9C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fultter_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akulaku.fultter-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fultter_ios.app/fultter_ios";
+			};
+			name = Debug;
+		};
+		BAB1282422C8935E009D9C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fultter_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akulaku.fultter-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fultter_ios.app/fultter_ios";
+			};
+			name = Release;
+		};
+		BAB1282622C8935E009D9C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fultter_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akulaku.fultter-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fultter_ios;
+			};
+			name = Debug;
+		};
+		BAB1282722C8935E009D9C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fultter_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akulaku.fultter-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fultter_ios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAB127EE22C8935D009D9C3A /* Build configuration list for PBXProject "fultter_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB1281D22C8935E009D9C3A /* Debug */,
+				BAB1281E22C8935E009D9C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB1281F22C8935E009D9C3A /* Build configuration list for PBXNativeTarget "fultter_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB1282022C8935E009D9C3A /* Debug */,
+				BAB1282122C8935E009D9C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB1282222C8935E009D9C3A /* Build configuration list for PBXNativeTarget "fultter_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB1282322C8935E009D9C3A /* Debug */,
+				BAB1282422C8935E009D9C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB1282522C8935E009D9C3A /* Build configuration list for PBXNativeTarget "fultter_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB1282622C8935E009D9C3A /* Debug */,
+				BAB1282722C8935E009D9C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAB127EB22C8935D009D9C3A /* Project object */;
+}
